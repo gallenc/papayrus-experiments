@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <name>Java code from UML model</name>
   <groupId>org.solent.papayrus.examples</groupId>
-  <artifactId>uml-to-java</artifactId>
+  <artifactId>papyrus-uml-to-java</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -61,7 +61,7 @@
             <args>-data</args>
             <args>${project.basedir}</args>
             <args>-actions</args>
-            <args>launch:/model/generateJavaFromUML.launch</args>
+            <args>launch:/papyrus-uml/generateJavaFromUML.launch</args>
           </applicationsArgs>
         </configuration>
         <executions>
