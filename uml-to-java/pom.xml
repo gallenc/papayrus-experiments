@@ -62,7 +62,7 @@
             <args>-data</args>
             <args>${project.basedir}</args>
             <args>-actions</args>
-            <args>launch:/NonRegressionModel/generateJavaFromUML.launch</args>
+            <args>launch:/model/generateJavaFromUML.launch</args>
           </applicationsArgs>
         </configuration>
         <executions>
