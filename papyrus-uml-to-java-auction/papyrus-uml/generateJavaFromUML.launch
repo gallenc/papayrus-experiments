@@ -11,11 +11,12 @@
 <booleanAttribute key="generate_getters_setters" value="true"/>
 <booleanAttribute key="generate_setters_collections" value="false"/>
 <booleanAttribute key="ignore_java_types_during_generation_and_import" value="true"/>
-<stringAttribute key="jre_execution_environment" value="JavaSE-1.7"/>
+<stringAttribute key="jre_execution_environment" value="JavaSE-1.8"/>
 <stringAttribute key="not_ordered_not_unique" value="java.util.ArrayList"/>
 <stringAttribute key="not_ordered_unique" value="java.util.HashSet"/>
 <stringAttribute key="ordered_not_unique" value="java.util.ArrayList"/>
 <stringAttribute key="ordered_unique" value="java.util.LinkedHashSet"/>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING" value="UTF-8"/>
 <stringAttribute key="output_folder_path" value="target/classes"/>
 <stringAttribute key="packages_ignore_generation" value="java.lang, java.util,"/>
 <stringAttribute key="packages_ignore_imports" value="java.lang, "/>
