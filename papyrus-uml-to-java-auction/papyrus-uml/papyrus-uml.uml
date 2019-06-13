@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3iN4EIvHEemAGJUlRmo9wg" name="papyrus-uml">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3iN4EIvHEemAGJUlRmo9wg" name="papyrus-uml">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_4IAFsIvHEemAGJUlRmo9wg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RG75AI34Eem1s4ZvalLt9A" name="Address"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SRUogI34Eem1s4ZvalLt9A" name="Grower">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-SHSoI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TqI1kI34Eem1s4ZvalLt9A" name="BusinessEntiry"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e2ojMI34Eem1s4ZvalLt9A" name="Auctioneer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9Wc7oI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hFm8MI34Eem1s4ZvalLt9A" name="WholesaleBuyer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8HwT4I34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kE7ZHY34Eem1s4ZvalLt9A" name="Retailer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ym2v8I35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pAB1EI34Eem1s4ZvalLt9A" name="Bank">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wZhVsI35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bW8-A439Eem1s4ZvalLt9A" name="bankaccount" type="_JwwjYI39Eem1s4ZvalLt9A" association="_bW8-AI39Eem1s4ZvalLt9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bW8-BI39Eem1s4ZvalLt9A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bW8-BY39Eem1s4ZvalLt9A" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rXCIsI34Eem1s4ZvalLt9A" name="Grower"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_easRQI38Eem1s4ZvalLt9A" client="_TqI1kI34Eem1s4ZvalLt9A" supplier="_RG75AI34Eem1s4ZvalLt9A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jhGxcI38Eem1s4ZvalLt9A" memberEnd="_jhZsYI38Eem1s4ZvalLt9A _jhsnUo38Eem1s4ZvalLt9A" navigableOwnedEnd="_jhZsYI38Eem1s4ZvalLt9A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhP7YI38Eem1s4ZvalLt9A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhP7YY38Eem1s4ZvalLt9A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jhsnUo38Eem1s4ZvalLt9A" name="businessentiry" type="_TqI1kI34Eem1s4ZvalLt9A" association="_jhGxcI38Eem1s4ZvalLt9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0nWgsI38Eem1s4ZvalLt9A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0ngRsI38Eem1s4ZvalLt9A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jhZsYI38Eem1s4ZvalLt9A" name="address" type="_RG75AI34Eem1s4ZvalLt9A" association="_jhGxcI38Eem1s4ZvalLt9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jhsnUI38Eem1s4ZvalLt9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jhsnUY38Eem1s4ZvalLt9A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JwwjYI39Eem1s4ZvalLt9A" name="BankAccount">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OyXcE439Eem1s4ZvalLt9A" name="businessentiry" type="_TqI1kI34Eem1s4ZvalLt9A" association="_OyXcEI39Eem1s4ZvalLt9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OyqXAI39Eem1s4ZvalLt9A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oyzg8I39Eem1s4ZvalLt9A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OyXcEI39Eem1s4ZvalLt9A" name="hasBankAccount" memberEnd="_OyXcE439Eem1s4ZvalLt9A _Oyzg8Y39Eem1s4ZvalLt9A" navigableOwnedEnd="_Oyzg8Y39Eem1s4ZvalLt9A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OyXcEY39Eem1s4ZvalLt9A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OyXcEo39Eem1s4ZvalLt9A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Oyzg8Y39Eem1s4ZvalLt9A" name="bankaccount" type="_JwwjYI39Eem1s4ZvalLt9A" association="_OyXcEI39Eem1s4ZvalLt9A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bW8-AI39Eem1s4ZvalLt9A" name="managesBankAccounts" memberEnd="_bW8-A439Eem1s4ZvalLt9A _bW8-Bo39Eem1s4ZvalLt9A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bW8-AY39Eem1s4ZvalLt9A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bW8-Ao39Eem1s4ZvalLt9A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bW8-Bo39Eem1s4ZvalLt9A" name="bank" type="_pAB1EI34Eem1s4ZvalLt9A" association="_bW8-AI39Eem1s4ZvalLt9A"/>
+  </packagedElement>
 </uml:Model>
