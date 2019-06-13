@@ -3,4 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_4IAFsIvHEemAGJUlRmo9wg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hvZiQI4HEem1s4ZvalLt9A" name="org.solent.examples">
+    <packagedElement xmi:type="uml:Class" xmi:id="_OTm38I4HEem1s4ZvalLt9A" name="ExampleClass"/>
+  </packagedElement>
 </uml:Model>
