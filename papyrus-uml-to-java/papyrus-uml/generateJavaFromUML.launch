@@ -7,8 +7,8 @@
 <stringAttribute key="copyright_license" value="All rights reserved."/>
 <stringAttribute key="default_project_name" value="generated-src"/>
 <booleanAttribute key="generate_advanced_accessors_collections" value="false"/>
-<booleanAttribute key="generate_getters_collections" value="true"/>
-<booleanAttribute key="generate_getters_setters" value="true"/>
+<booleanAttribute key="generate_getters_collections" value="false"/>
+<booleanAttribute key="generate_getters_setters" value="false"/>
 <booleanAttribute key="generate_setters_collections" value="false"/>
 <booleanAttribute key="ignore_java_types_during_generation_and_import" value="true"/>
 <stringAttribute key="jre_execution_environment" value="JavaSE-1.7"/>
@@ -22,6 +22,6 @@
 <stringAttribute key="source_folder_path" value="src/main/java"/>
 <stringAttribute key="types_to_ignore_during_generation" value=""/>
 <stringAttribute key="types_to_ignore_during_imports" value=""/>
-<stringAttribute key="uml_model_path" value="papyrus-uml/papyrus-uml.uml"/>
+<stringAttribute key="uml_model_path" value="/papayrus-experiments/papyrus-uml-to-java-auction/papyrus-uml/papyrus-uml.uml"/>
 <stringAttribute key="version" value="1.0.0"/>
 </launchConfiguration>

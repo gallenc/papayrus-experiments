@@ -3,85 +3,6 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_4IAFsIvHEemAGJUlRmo9wg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RG75AI34Eem1s4ZvalLt9A" name="Address">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YxIOcI4BEem1s4ZvalLt9A" name="buildingNo">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_paje0I4BEem1s4ZvalLt9A" name="address">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_SRUogI34Eem1s4ZvalLt9A" name="Grower">
-    <generalization xmi:type="uml:Generalization" xmi:id="_-SHSoI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_fqYdoo6jEemxgJMFIzKJFg" name="field" type="_bKDtEI6jEemxgJMFIzKJFg" association="_fqOsoI6jEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fqhnkI6jEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fqhnkY6jEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_iutU0o6kEemxgJMFIzKJFg" name="auctioneer" type="_e2ojMI34Eem1s4ZvalLt9A" association="_iujj0I6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iutU046kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iutU1I6kEemxgJMFIzKJFg" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_fppy846lEemxgJMFIzKJFg" name="pickedflowerbatch" type="_F4EgsI6kEemxgJMFIzKJFg" association="_fppy8I6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fpzj8I6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fpzj8Y6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_yqd8A46mEemxgJMFIzKJFg" name="crop" type="_hoGAII6mEemxgJMFIzKJFg" association="_yqd8AI6mEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yqd8BI6mEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yqd8BY6mEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_mXSBMo6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_mXIQMI6oEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mXSBM46oEemxgJMFIzKJFg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mXSBNI6oEemxgJMFIzKJFg" value="*"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_TqI1kI34Eem1s4ZvalLt9A" name="BusinessEntiry">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_0vPfII4BEem1s4ZvalLt9A" name="name">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_LTYOoI6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_e2ojMI34Eem1s4ZvalLt9A" name="Auctioneer">
-    <generalization xmi:type="uml:Generalization" xmi:id="_9Wc7oI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_pHO9I46kEemxgJMFIzKJFg" name="auction" type="_KuljsI6kEemxgJMFIzKJFg" association="_pHO9II6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pHO9JI6kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pHO9JY6kEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_6cYuQo6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_6cO9QI6oEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6cYuQ46oEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6cYuRI6oEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_hFm8MI34Eem1s4ZvalLt9A" name="WholesaleBuyer">
-    <generalization xmi:type="uml:Generalization" xmi:id="_8HwT4I34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_hHdDIo6kEemxgJMFIzKJFg" name="auctioneer" type="_e2ojMI34Eem1s4ZvalLt9A" association="_hHT5MI6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hHdDI46kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hHdDJI6kEemxgJMFIzKJFg" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_0lcs446kEemxgJMFIzKJFg" name="bid" type="_vGM18I6kEemxgJMFIzKJFg" association="_0lcs4I6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0lcs5I6kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0lcs5Y6kEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_56oo446kEemxgJMFIzKJFg" name="retailer" type="_kE7ZHY34Eem1s4ZvalLt9A" association="_56oo4I6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_56yZ4I6kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_56yZ4Y6kEemxgJMFIzKJFg" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9rtJ8I6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_9rjY8I6oEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9rtJ8Y6oEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9rtJ8o6oEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_kE7ZHY34Eem1s4ZvalLt9A" name="Retailer">
-    <generalization xmi:type="uml:Generalization" xmi:id="_ym2v8I35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_pAB1EI34Eem1s4ZvalLt9A" name="Bank">
-    <generalization xmi:type="uml:Generalization" xmi:id="_wZhVsI35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_bW8-A439Eem1s4ZvalLt9A" name="bankaccount" type="_JwwjYI39Eem1s4ZvalLt9A" association="_bW8-AI39Eem1s4ZvalLt9A">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bW8-BI39Eem1s4ZvalLt9A"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bW8-BY39Eem1s4ZvalLt9A" value="*"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Abstraction" xmi:id="_easRQI38Eem1s4ZvalLt9A" client="_TqI1kI34Eem1s4ZvalLt9A" supplier="_RG75AI34Eem1s4ZvalLt9A"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_jhGxcI38Eem1s4ZvalLt9A" name="businessHasAddress" memberEnd="_jhZsYI38Eem1s4ZvalLt9A _jhsnUo38Eem1s4ZvalLt9A" navigableOwnedEnd="_jhZsYI38Eem1s4ZvalLt9A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhP7YI38Eem1s4ZvalLt9A" source="org.eclipse.papyrus">
@@ -96,12 +17,6 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jhsnUY38Eem1s4ZvalLt9A" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_JwwjYI39Eem1s4ZvalLt9A" name="BankAccount">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OyXcE439Eem1s4ZvalLt9A" name="businessentiry" type="_TqI1kI34Eem1s4ZvalLt9A" association="_OyXcEI39Eem1s4ZvalLt9A">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OyqXAI39Eem1s4ZvalLt9A"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oyzg8I39Eem1s4ZvalLt9A" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_OyXcEI39Eem1s4ZvalLt9A" name="hasBankAccount" memberEnd="_OyXcE439Eem1s4ZvalLt9A _Oyzg8Y39Eem1s4ZvalLt9A" navigableOwnedEnd="_Oyzg8Y39Eem1s4ZvalLt9A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OyXcEY39Eem1s4ZvalLt9A" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OyXcEo39Eem1s4ZvalLt9A" key="nature" value="UML_Nature"/>
@@ -113,15 +28,6 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bW8-Ao39Eem1s4ZvalLt9A" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_bW8-Bo39Eem1s4ZvalLt9A" name="bank" type="_pAB1EI34Eem1s4ZvalLt9A" association="_bW8-AI39Eem1s4ZvalLt9A"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_bKDtEI6jEemxgJMFIzKJFg" name="Field">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_zwID4I6jEemxgJMFIzKJFg" name="address" type="_RG75AI34Eem1s4ZvalLt9A" association="_zv1I8I6jEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zwR04I6jEemxgJMFIzKJFg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zwR04Y6jEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EQs2EI6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_fqOsoI6jEemxgJMFIzKJFg" name="growerHasFields" memberEnd="_fqYdoo6jEemxgJMFIzKJFg _fqhnko6jEemxgJMFIzKJFg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fqYdoI6jEemxgJMFIzKJFg" source="org.eclipse.papyrus">
@@ -137,60 +43,6 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__814YI6jEemxgJMFIzKJFg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__814YY6jEemxgJMFIzKJFg" value="*"/>
     </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_F4EgsI6kEemxgJMFIzKJFg" name="PickedFlowerBatch">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_SRgtI46lEemxgJMFIzKJFg" name="trolly" type="_M4WFgI6kEemxgJMFIzKJFg" association="_SRgtII6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SRgtJI6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SRgtJY6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_cMUwc46lEemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_cMUwcI6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cMUwdI6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cMUwdY6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="__AmyQo6mEemxgJMFIzKJFg" name="crop" type="_hoGAII6mEemxgJMFIzKJFg" association="__AdoUI6mEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__AmyQ46mEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__AmyRI6mEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_UYW2II6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_KuljsI6kEemxgJMFIzKJFg" name="Auction">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_s5cDc46kEemxgJMFIzKJFg" name="lot" type="_Lj_hsI6kEemxgJMFIzKJFg" association="_s5cDcI6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s5cDdI6kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s5cDdY6kEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Lj_hsI6kEemxgJMFIzKJFg" name="Lot">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ywNpk46kEemxgJMFIzKJFg" name="bid" type="_vGM18I6kEemxgJMFIzKJFg" association="_ywNpkI6kEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ywNplI6kEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ywNplY6kEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_B76-w46lEemxgJMFIzKJFg" name="batch" type="_F4EgsI6kEemxgJMFIzKJFg" association="_B76-wI6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B76-xI6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B76-xY6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YsLbwI6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tAx9YI6rEemxgJMFIzKJFg" name="reservePrice">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_29YwcI6rEemxgJMFIzKJFg" name="Property5"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_M4WFgI6kEemxgJMFIzKJFg" name="Trolly">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EoOv0I6sEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_P5m3EI6kEemxgJMFIzKJFg" name="WarehouseStorageArea">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ehzb446lEemxgJMFIzKJFg" name="trolly" type="_M4WFgI6kEemxgJMFIzKJFg" association="_Ehzb4I6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EiGW0I6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EiGW0Y6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_89QBII6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_hHT5MI6kEemxgJMFIzKJFg" name="auctioneerHasWholeSaleBuyers" memberEnd="_hHdDIo6kEemxgJMFIzKJFg _hHdDJY6kEemxgJMFIzKJFg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hHdDII6kEemxgJMFIzKJFg" source="org.eclipse.papyrus">
@@ -221,14 +73,6 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s5cDco6kEemxgJMFIzKJFg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_s5cDdo6kEemxgJMFIzKJFg" name="auction" type="_KuljsI6kEemxgJMFIzKJFg" association="_s5cDcI6kEemxgJMFIzKJFg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_vGM18I6kEemxgJMFIzKJFg" name="Bid">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_e72qEI6rEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_j8ddMI6rEemxgJMFIzKJFg" name="amount">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ywNpkI6kEemxgJMFIzKJFg" name="lotHasBids" memberEnd="_ywNpk46kEemxgJMFIzKJFg _ywNplo6kEemxgJMFIzKJFg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ywNpkY6kEemxgJMFIzKJFg" source="org.eclipse.papyrus">
@@ -269,20 +113,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_SRgtJo6lEemxgJMFIzKJFg" name="pickedflowerbatch" type="_F4EgsI6kEemxgJMFIzKJFg" association="_SRgtII6lEemxgJMFIzKJFg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_WB7qwI6lEemxgJMFIzKJFg" name="FlowerDescription">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_diL94I6qEemxgJMFIzKJFg" name="type">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_m8BbEI6qEemxgJMFIzKJFg" name="description">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_yoZioI6qEemxgJMFIzKJFg" name="image">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZUWZkI6sEemxgJMFIzKJFg" name="id">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_cMUwcI6lEemxgJMFIzKJFg" memberEnd="_cMUwc46lEemxgJMFIzKJFg _cMUwdo6lEemxgJMFIzKJFg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cMUwcY6lEemxgJMFIzKJFg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cMUwco6lEemxgJMFIzKJFg" key="nature" value="UML_Nature"/>
@@ -300,16 +130,6 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tYQQ8o6lEemxgJMFIzKJFg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_tYQQ9o6lEemxgJMFIzKJFg" name="field" type="_hoGAII6mEemxgJMFIzKJFg" association="_tYQQ8I6lEemxgJMFIzKJFg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_hoGAII6mEemxgJMFIzKJFg" name="Crop">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tYQQ846lEemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_tYQQ8I6lEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tYQQ9I6lEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tYQQ9Y6lEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tkp4w46mEemxgJMFIzKJFg" name="field" type="_bKDtEI6jEemxgJMFIzKJFg" association="_tkp4wI6mEemxgJMFIzKJFg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tkp4xI6mEemxgJMFIzKJFg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tkp4xY6mEemxgJMFIzKJFg" value="1"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_tkp4wI6mEemxgJMFIzKJFg" name="cropHasFields" memberEnd="_tkp4w46mEemxgJMFIzKJFg _tkp4xo6mEemxgJMFIzKJFg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tkp4wY6mEemxgJMFIzKJFg" source="org.eclipse.papyrus">
@@ -349,5 +169,197 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9rjY8o6oEemxgJMFIzKJFg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9rtJ846oEemxgJMFIzKJFg" name="wholesalebuyer" type="_hFm8MI34Eem1s4ZvalLt9A" association="_9rjY8I6oEemxgJMFIzKJFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_cZeFgI6uEemxgJMFIzKJFg" name="org.solent.example.auction">
+    <packagedElement xmi:type="uml:Class" xmi:id="_hoGAII6mEemxgJMFIzKJFg" name="Crop">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tYQQ846lEemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_tYQQ8I6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tYQQ9I6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tYQQ9Y6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tkp4w46mEemxgJMFIzKJFg" name="field" type="_bKDtEI6jEemxgJMFIzKJFg" association="_tkp4wI6mEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tkp4xI6mEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tkp4xY6mEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vGM18I6kEemxgJMFIzKJFg" name="Bid">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_e72qEI6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_j8ddMI6rEemxgJMFIzKJFg" name="amount">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_P5m3EI6kEemxgJMFIzKJFg" name="WarehouseStorageArea">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ehzb446lEemxgJMFIzKJFg" name="trolly" type="_M4WFgI6kEemxgJMFIzKJFg" association="_Ehzb4I6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EiGW0I6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EiGW0Y6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_89QBII6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_M4WFgI6kEemxgJMFIzKJFg" name="Trolly">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_EoOv0I6sEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KuljsI6kEemxgJMFIzKJFg" name="Auction">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_s5cDc46kEemxgJMFIzKJFg" name="lot" type="_Lj_hsI6kEemxgJMFIzKJFg" association="_s5cDcI6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s5cDdI6kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s5cDdY6kEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RG75AI34Eem1s4ZvalLt9A" name="Address">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YxIOcI4BEem1s4ZvalLt9A" name="buildingNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_paje0I4BEem1s4ZvalLt9A" name="address">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SRUogI34Eem1s4ZvalLt9A" name="Grower">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-SHSoI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fqYdoo6jEemxgJMFIzKJFg" name="field" type="_bKDtEI6jEemxgJMFIzKJFg" association="_fqOsoI6jEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fqhnkI6jEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fqhnkY6jEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iutU0o6kEemxgJMFIzKJFg" name="auctioneer" type="_e2ojMI34Eem1s4ZvalLt9A" association="_iujj0I6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iutU046kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iutU1I6kEemxgJMFIzKJFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fppy846lEemxgJMFIzKJFg" name="pickedflowerbatch" type="_F4EgsI6kEemxgJMFIzKJFg" association="_fppy8I6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fpzj8I6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fpzj8Y6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yqd8A46mEemxgJMFIzKJFg" name="crop" type="_hoGAII6mEemxgJMFIzKJFg" association="_yqd8AI6mEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yqd8BI6mEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yqd8BY6mEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mXSBMo6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_mXIQMI6oEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mXSBM46oEemxgJMFIzKJFg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mXSBNI6oEemxgJMFIzKJFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TqI1kI34Eem1s4ZvalLt9A" name="BusinessEntiry">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0vPfII4BEem1s4ZvalLt9A" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LTYOoI6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e2ojMI34Eem1s4ZvalLt9A" name="Auctioneer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9Wc7oI34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pHO9I46kEemxgJMFIzKJFg" name="auction" type="_KuljsI6kEemxgJMFIzKJFg" association="_pHO9II6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pHO9JI6kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pHO9JY6kEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6cYuQo6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_6cO9QI6oEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6cYuQ46oEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6cYuRI6oEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hFm8MI34Eem1s4ZvalLt9A" name="WholesaleBuyer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_8HwT4I34Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hHdDIo6kEemxgJMFIzKJFg" name="auctioneer" type="_e2ojMI34Eem1s4ZvalLt9A" association="_hHT5MI6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hHdDI46kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hHdDJI6kEemxgJMFIzKJFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0lcs446kEemxgJMFIzKJFg" name="bid" type="_vGM18I6kEemxgJMFIzKJFg" association="_0lcs4I6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0lcs5I6kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0lcs5Y6kEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_56oo446kEemxgJMFIzKJFg" name="retailer" type="_kE7ZHY34Eem1s4ZvalLt9A" association="_56oo4I6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_56yZ4I6kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_56yZ4Y6kEemxgJMFIzKJFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9rtJ8I6oEemxgJMFIzKJFg" name="warehousestoragearea" type="_P5m3EI6kEemxgJMFIzKJFg" association="_9rjY8I6oEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9rtJ8Y6oEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9rtJ8o6oEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kE7ZHY34Eem1s4ZvalLt9A" name="Retailer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ym2v8I35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pAB1EI34Eem1s4ZvalLt9A" name="Bank">
+      <generalization xmi:type="uml:Generalization" xmi:id="_wZhVsI35Eem1s4ZvalLt9A" general="_TqI1kI34Eem1s4ZvalLt9A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bW8-A439Eem1s4ZvalLt9A" name="bankaccount" type="_JwwjYI39Eem1s4ZvalLt9A" association="_bW8-AI39Eem1s4ZvalLt9A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bW8-BI39Eem1s4ZvalLt9A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bW8-BY39Eem1s4ZvalLt9A" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WB7qwI6lEemxgJMFIzKJFg" name="FlowerDescription">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_diL94I6qEemxgJMFIzKJFg" name="type">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_m8BbEI6qEemxgJMFIzKJFg" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yoZioI6qEemxgJMFIzKJFg" name="image">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZUWZkI6sEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_C87gE462EemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_C87gEI62EemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C87gFI62EemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C87gFY62EemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lj_hsI6kEemxgJMFIzKJFg" name="Lot">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ywNpk46kEemxgJMFIzKJFg" name="bid" type="_vGM18I6kEemxgJMFIzKJFg" association="_ywNpkI6kEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ywNplI6kEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ywNplY6kEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_B76-w46lEemxgJMFIzKJFg" name="batch" type="_F4EgsI6kEemxgJMFIzKJFg" association="_B76-wI6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B76-xI6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B76-xY6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YsLbwI6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tAx9YI6rEemxgJMFIzKJFg" name="reservePrice">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_29YwcI6rEemxgJMFIzKJFg" name="Property5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JwwjYI39Eem1s4ZvalLt9A" name="BankAccount">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OyXcE439Eem1s4ZvalLt9A" name="businessentiry" type="_TqI1kI34Eem1s4ZvalLt9A" association="_OyXcEI39Eem1s4ZvalLt9A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OyqXAI39Eem1s4ZvalLt9A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oyzg8I39Eem1s4ZvalLt9A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_F4EgsI6kEemxgJMFIzKJFg" name="PickedFlowerBatch">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SRgtI46lEemxgJMFIzKJFg" name="trolly" type="_M4WFgI6kEemxgJMFIzKJFg" association="_SRgtII6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SRgtJI6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SRgtJY6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cMUwc46lEemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_cMUwcI6lEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cMUwdI6lEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cMUwdY6lEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__AmyQo6mEemxgJMFIzKJFg" name="crop" type="_hoGAII6mEemxgJMFIzKJFg" association="__AdoUI6mEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__AmyQ46mEemxgJMFIzKJFg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__AmyRI6mEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UYW2II6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bKDtEI6jEemxgJMFIzKJFg" name="Field">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zwID4I6jEemxgJMFIzKJFg" name="address" type="_RG75AI34Eem1s4ZvalLt9A" association="_zv1I8I6jEemxgJMFIzKJFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zwR04I6jEemxgJMFIzKJFg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zwR04Y6jEemxgJMFIzKJFg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_EQs2EI6rEemxgJMFIzKJFg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C87gEI62EemxgJMFIzKJFg" memberEnd="_C87gE462EemxgJMFIzKJFg _C87gFo62EemxgJMFIzKJFg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C87gEY62EemxgJMFIzKJFg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C87gEo62EemxgJMFIzKJFg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C87gFo62EemxgJMFIzKJFg" name="flowerdescription" type="_WB7qwI6lEemxgJMFIzKJFg" association="_C87gEI62EemxgJMFIzKJFg"/>
   </packagedElement>
 </uml:Model>
