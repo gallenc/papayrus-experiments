@@ -12,7 +12,10 @@
     <tycho-version>1.4.0</tycho-version>
   </properties>
 
-
+<!--   <modules> -->
+<!--   <module>generated-src</module> -->
+<!--   </modules> -->
+  
   <build>
     <plugins>
       <plugin>
